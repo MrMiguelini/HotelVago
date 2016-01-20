@@ -5,6 +5,7 @@ using System.Web;
 
 namespace HotelVago.Models
 {
+    //Solo hago una prueba
     public class Habitacion
     {
         public int habitacionID { get; set; }
