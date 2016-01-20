@@ -6,6 +6,6 @@ using System.Web;
 namespace HotelVago.Models
 {
     public class Huesped
-    {
+    {       
     }
 }
