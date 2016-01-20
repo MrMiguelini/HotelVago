@@ -29,5 +29,11 @@ namespace HotelVago.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<HotelVago.Models.Huesped> Huespeds { get; set; }
+
+        public System.Data.Entity.DbSet<HotelVago.Models.Habitacion> Habitacions { get; set; }
+
+        public System.Data.Entity.DbSet<HotelVago.Models.Reservacion> Reservacions { get; set; }
     }
 }

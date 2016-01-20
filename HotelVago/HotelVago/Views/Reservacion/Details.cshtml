@@ -1,0 +1,59 @@
+﻿@model HotelVago.Models.Reservacion
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Reservacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.habitacion.tamañoHabitacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.habitacion.tamañoHabitacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.huesped.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.huesped.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaDeIngreso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaDeIngreso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaDeSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaDeSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numeroDeHabitacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numeroDeHabitacion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.reservacionID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

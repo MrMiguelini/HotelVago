@@ -159,8 +159,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HabitacionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HuespedController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ReservacionController.cs" />
+    <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -229,10 +233,24 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Huesped\Create.cshtml" />
+    <Content Include="Views\Huesped\Delete.cshtml" />
+    <Content Include="Views\Huesped\Details.cshtml" />
+    <Content Include="Views\Huesped\Edit.cshtml" />
+    <Content Include="Views\Huesped\Index.cshtml" />
+    <Content Include="Views\Habitacion\Create.cshtml" />
+    <Content Include="Views\Habitacion\Delete.cshtml" />
+    <Content Include="Views\Habitacion\Details.cshtml" />
+    <Content Include="Views\Habitacion\Edit.cshtml" />
+    <Content Include="Views\Habitacion\Index.cshtml" />
+    <Content Include="Views\Reservacion\Create.cshtml" />
+    <Content Include="Views\Reservacion\Delete.cshtml" />
+    <Content Include="Views\Reservacion\Details.cshtml" />
+    <Content Include="Views\Reservacion\Edit.cshtml" />
+    <Content Include="Views\Reservacion\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
