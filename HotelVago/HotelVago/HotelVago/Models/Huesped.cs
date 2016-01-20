@@ -5,6 +5,7 @@ using System.Web;
 
 namespace HotelVago.Models
 {
+    //Se crea modelo de huesped
     public class Huesped
     {
         public int huespedID { get; set; }
